@@ -16,9 +16,29 @@ body {
 header {
     background-color:#18224A ;
     height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #logo {
     width: 150px;
     height: 150px;
+    margin-left: 50px;
 }
+
+.nav-container {
+    display: flex; 
+    justify-content: flex-end;
+}
+
+.nav-container li {
+    list-style: none;
+    padding: 18px;
+}
+
+.nav-container a {
+    color: white;
+}
+
+
