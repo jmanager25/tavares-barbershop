@@ -10,3 +10,15 @@ body {
     font-family: roboto, sans-serif;
     font-size: 300;
 }
+
+/* header */
+
+header {
+    background-color:#18224A ;
+    height: 150px;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+}
