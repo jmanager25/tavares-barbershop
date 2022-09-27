@@ -50,3 +50,12 @@ header {
     color: #18224A;
 }
 
+/* barbershop image */
+
+#barbershop-image {
+    height: 500px;
+    width: 100%;
+    background: url("../images/barbershop.jpg") no-repeat center center;
+    background-size: cover;
+   
+}
