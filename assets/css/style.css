@@ -9,6 +9,12 @@
 body {
     font-family: roboto, sans-serif;
     font-size: 300;
+    letter-spacing: 1px;
+}
+
+h1, h2, h3 {
+    font-family: montserrat, sans-serif;
+    text-transform: uppercase;
 }
 
 /* headings and logo */
@@ -51,15 +57,28 @@ header {
     color: #18224A;
 }
 
-/* hero image */
+/* hero section */
+
+#hero-section {
+    height: 500px;
+}
 
 #hero-image {
-    height: 500px;
+    height: 650px;
     width: 100%;
     background: url("../images/hero\ image.jpg") no-repeat center center;
     background-size: cover;
     position: relative;
-    top: -150px;
-    
-   
+    top: -150px;  
+}
+
+/* About us section */
+
+#about {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#about ~ p {
+    text-align: center;
 }
