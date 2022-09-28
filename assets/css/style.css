@@ -82,3 +82,10 @@ header {
 #about ~ p {
     text-align: center;
 }
+
+/* services & opening time section */
+
+#services-schedule {
+    margin: 20px 0;
+    background-color:#864800 ;
+}
