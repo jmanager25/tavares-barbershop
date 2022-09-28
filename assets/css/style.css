@@ -14,11 +14,12 @@ body {
 /* headings and logo */
 
 header {
-    background-color:#18224A ;
     height: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
 #logo {
@@ -57,5 +58,8 @@ header {
     width: 100%;
     background: url("../images/hero\ image.jpg") no-repeat center center;
     background-size: cover;
+    position: relative;
+    top: -150px;
+    
    
 }
