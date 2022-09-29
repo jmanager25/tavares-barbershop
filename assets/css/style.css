@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
 
 * {
     margin: 0;
@@ -48,13 +48,14 @@ header {
 }
 
 #nav-container a {
-    color: white;
+    color:#A39594 ;
     text-decoration: none;
+    font-weight: 500;
 }
 
 #nav-container a:hover {
-    background-color: white;
-    color: #18224A;
+    background-color: #A39594;
+    color:#FFCD53 ;
 }
 
 /* hero section */
@@ -96,6 +97,6 @@ header {
     margin: 10px 0;
 }
 
-#services li {
+li {
     text-transform: uppercase;
 }
