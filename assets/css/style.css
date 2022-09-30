@@ -76,14 +76,14 @@ header {
 /* About us section */
 
 #about-us {
-    height: 600px;
+    height: 450x;
     margin: 20px;
     display: flex;
     justify-content: space-around;
 }
 
 #about-container {
-    width: 450px;
+    width: 40%;
     border: 1px solid #512900;
     padding: 20px 10px;
     text-align: center;
@@ -92,9 +92,13 @@ header {
     font-weight: 500;
 }
 
+#about-container h2 {
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
 #barbershop-img-container {
-    width: 450px;
-    padding-left: 20px;
+    width: 40%;
     overflow: hidden;
 }
 
