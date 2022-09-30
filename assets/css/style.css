@@ -75,17 +75,31 @@ header {
 
 /* About us section */
 
-#about {
-    text-align: center;
-    margin: 20px 0;
+#about-us {
+    height: 600px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
-#about ~ p {
+#about-container {
+    width: 450px;
+    border: 1px solid #512900;
+    padding: 20px 10px;
     text-align: center;
+    line-height: 2em;
+    color: #A39594;
+    font-weight: 500;
 }
 
 #barbershop-img-container {
-    width: ;
+    width: 450px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+#barbershop-img-container img {
+    width: 100%;
 }
 
 /* services & opening time section */
