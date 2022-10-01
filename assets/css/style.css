@@ -119,19 +119,5 @@ header {
     color: #A39594;
 }
 
-/* services & opening time section */
+/* services & Price*/
 
-#services-schedule {
-    margin: 20px 0;
-    background-color:#864800 ;
-    display: flex;
-    justify-content: space-around;
-}
-
-#services-schedule h2 {
-    margin: 10px 0;
-}
-
-li {
-    text-transform: uppercase;
-}
