@@ -106,6 +106,19 @@ header {
     width: 100%;
 }
 
+#booking {
+    padding: 4px;
+    text-decoration: none;
+    background-color: #A39594;
+    color: #FFCD53;
+    font-size: 20px;
+}
+
+#booking:hover {
+    background-color: #FFCD53;
+    color: #A39594;
+}
+
 /* services & opening time section */
 
 #services-schedule {
