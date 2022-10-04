@@ -133,5 +133,18 @@ header {
 }
 
 .subtitle {
-    
+    font-size: 30px;
+    margin: 20px;
+    color: #FFCD53;
+}
+
+#services ul {
+    margin-top: 30px;
+    font-size: 20px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#services span {
+    color: #27150B;
 }
