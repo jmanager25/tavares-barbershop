@@ -149,5 +149,29 @@ header {
     color: #27150B;
 }
 
-/* location */
+/* contact */
 
+#contact {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+#details-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#map {
+    width: 60%;
+}
+
+#contact-details {
+    border: 2px solid #FFCD53;
+    padding: 20px;
+    align-self: center;
+}
+
+#contact h2 {
+    align-self: center;
+}
