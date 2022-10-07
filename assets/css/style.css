@@ -10,7 +10,7 @@ body {
     font-family: roboto, sans-serif;
     font-size: 300;
     letter-spacing: 1px;
-    color: #A39594;
+    color: #ffffff;
 }
 
 h1, h2, h3 {
@@ -49,14 +49,14 @@ header {
 }
 
 #nav-container a {
-    color: #A39594;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 500;
 }
 
 #nav-container a:hover {
-    background-color: #A39594;
-    color: #FFCD53;
+    background-color: #ffffff;
+    color: #ffa400;
 }
 
 /* hero section */
@@ -85,11 +85,11 @@ header {
 
 #about-container {
     width: 40%;
-    border: 1px solid #512900;
+    background-color: #232528;
+    border: 1px solid #ffa400;
     padding: 20px 10px;
     text-align: center;
     line-height: 2em;
-    color: #A39594;
     font-weight: 500;
 }
 
@@ -110,23 +110,23 @@ header {
 #booking {
     padding: 4px;
     text-decoration: none;
-    background-color: #A39594;
-    color: #FFCD53;
+    background-color: #ffffff;
+    color: #ffa400;
     font-size: 20px;
 }
 
 #booking:hover {
-    background-color: #FFCD53;
-    color: #A39594;
+    background-color: #ffa400;
+    color: #ffffff;
 }
 
 /* services & Price*/
 
 #services {
     height: 450px;
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
-    background-color:#512900 ;
+    background-color:#232528 ;
     display: flex;
     flex-direction: column;
     align-items: center;   
@@ -135,7 +135,6 @@ header {
 .subtitle {
     font-size: 30px;
     margin: 20px;
-    color: #FFCD53;
 }
 
 #services ul {
@@ -146,28 +145,31 @@ header {
 }
 
 #services span {
-    color: #27150B;
+    color: #ffa400;
 }
 
 /* contact */
 
 #contact {
     height: 450px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
+    background-color: #232528;
 }
 
 #details-container {
     display: flex;
     justify-content: space-around;
+    margin-top: 30px;
 }
 
 #map {
-    width: 60%;
+    width: 40%;
 }
 
-#contact-details {
-    border: 2px solid #FFCD53;
+.contact-details {
+    border: 2px solid #ffa400;
     padding: 20px;
     align-self: center;
 }
@@ -179,15 +181,13 @@ header {
 /* footer */
 
 footer {
-    height: 200px;
-    background-color: #512900;
+    height: 100px;
+    background-color: #232528;
     display: flex;
     justify-content: space-around;
 }
 
-#schedule {
-    align-self: center;
-}
+
 
 .social-networks {
     align-self: center;
