@@ -184,19 +184,26 @@ footer {
     height: 100px;
     background-color: #232528;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-
-
 .social-networks {
-    align-self: center;
     display: flex;
+    align-self: center;
+}
+
+.social-networks li {
+    list-style: none;
+    font-size: 160%;
+    padding: 20px;
 }
 
 .social-networks i {
-    font-size: 160%;
-    list-style: none;
-    margin: 1%;
-    padding: 20px;
+    color: #ffa400;
+    padding: 5px;
+}
+
+.social-networks i:hover {
+    background-color: #ffa400;
+    color: #ffffff;
 }
