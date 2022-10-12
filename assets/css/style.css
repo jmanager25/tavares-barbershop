@@ -11,6 +11,7 @@ body {
     font-size: 300;
     letter-spacing: 1px;
     color: #ffffff;
+    background-color: #232528;
 }
 
 h1, h2, h3 {
@@ -206,4 +207,10 @@ footer {
 .social-networks i:hover {
     background-color: #ffa400;
     color: #ffffff;
+}
+
+/* book appointment */
+
+#background {
+   
 }
