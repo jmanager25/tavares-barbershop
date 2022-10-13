@@ -243,3 +243,10 @@ label {
     padding: 5px;
     border-radius: 5px
 }
+
+.buttom {
+    margin-top: 20px;
+    width: 30%;
+    padding: 10px;
+    background-color: #ad987d;
+}
