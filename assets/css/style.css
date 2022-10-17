@@ -179,6 +179,26 @@ header {
     align-self: center;
 }
 
+/* gallery */
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.gallery-img-container {
+    width: 300px;
+    margin: 5px;
+}
+
+.gallery-img-container img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+}
+
 /* footer */
 
 footer {
