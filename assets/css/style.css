@@ -67,6 +67,22 @@ header {
     border-radius: 5px;
 }
 
+/* code for the navbar based on a youtube video "Responsive navbar tutorial" */
+.hamburger-menu {
+    position: absolute;
+    top: 3rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+}
+
+.hamburger-menu i {
+    font-size: 50x;
+}
+
 /* hero section */
 
 #hero-section {
@@ -276,4 +292,39 @@ label {
     width: 30%;
     padding: 10px;
     background-color: #ad987d;
+}
+
+/* media queries */
+
+/* for larger to small screen sizes from 1200 wide annd down */
+
+@media screen and (max-width: 1200px) {
+
+    /* code for the navbar based on a youtube video "Responsive navbar tutorial" */
+    .hamburger-menu{
+        display: flex;
+    }
+
+    nav {
+       /* display: none; */
+        width: 100%;
+    }
+
+    #header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #nav-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #nav-container li {
+        text-align: center;
+    }
+
+    nav.active {
+        display: flex;
+    }
 }
