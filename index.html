@@ -11,7 +11,10 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <script>
-        const 
+        const hamburgerMenu = document.getElementsByClassName('hamburger-menu')[0]
+        const nav = document.getElementsByClassName('nav')[0]
+
+        hamburgerMenu.addEventListener('click', () => {nav.classList.toggle('active')})
     </script>
     <title>Tavares Barbershop</title>
 </head>
@@ -24,7 +27,7 @@
         <a href="#" class="hamburger-menu">
             <i class="fa fa-bars"></i>
         </a>
-        <nav>
+        <nav class="nav">
             <ul id="nav-container">
                 <li>
                     <a href="index.html">Home</a>

@@ -70,17 +70,15 @@ header {
 /* code for the navbar based on a youtube video "Responsive navbar tutorial" */
 .hamburger-menu {
     position: absolute;
-    top: 3rem;
     right: 1rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 30px;
-    height: 25px;
 }
 
 .hamburger-menu i {
     font-size: 50x;
+    color: #ffffff;
 }
 
 /* hero section */
@@ -305,8 +303,8 @@ label {
         display: flex;
     }
 
-    nav {
-       /* display: none; */
+    .nav {
+        display: none; 
         width: 100%;
     }
 
@@ -324,7 +322,7 @@ label {
         text-align: center;
     }
 
-    nav.active {
+    .nav.active {
         display: flex;
     }
 }
