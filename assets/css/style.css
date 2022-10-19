@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     border: none;
+    text-decoration: none;
+    list-style: none;
 }
 
 body {
@@ -45,14 +47,12 @@ header {
 }
 
 #nav-container li {
-    list-style: none;
     padding: 18px;
 }
 
 #nav-container a {
     color: #ffffff;
     padding: 5px;
-    text-decoration: none;
     font-weight: 500;
     border-radius: 5px;
 }
@@ -77,8 +77,9 @@ header {
 }
 
 .hamburger-menu i {
-    font-size: 50x;
+    font-size: 30px;
     color: #ffffff;
+    line-height: 80px;
 }
 
 /* hero section */
@@ -131,7 +132,6 @@ header {
 
 #booking {
     padding: 4px;
-    text-decoration: none;
     background-color: #ffffff;
     color: #ffa400;
     font-size: 20px;
@@ -162,7 +162,6 @@ header {
 #services ul {
     margin-top: 30px;
     font-size: 20px;
-    list-style: none;
     text-transform: uppercase;
 }
 
@@ -235,7 +234,6 @@ footer {
 }
 
 .social-networks li {
-    list-style: none;
     font-size: 160%;
     padding: 20px;
 }
@@ -301,11 +299,14 @@ label {
     /* code for the navbar based on a youtube video "Responsive navbar tutorial" */
     .hamburger-menu{
         display: flex;
+        margin-right: 40px;
     }
 
     .nav {
-        display: none; 
+       /* display: none; */
         width: 100%;
+        position: fixed;
+        top: 80px;
     }
 
     #header {
@@ -316,6 +317,8 @@ label {
     #nav-container {
         width: 100%;
         flex-direction: column;
+        margin: 50px 0;
+        line-height: 30px;
     }
 
     #nav-container li {
