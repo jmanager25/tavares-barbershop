@@ -104,7 +104,8 @@ header {
     margin: 20px;
 }
 
-#about-us h2 {
+/* style for all sections title's */
+.subtitle {
     padding-bottom: 20px;
     font-size: 30px;
     text-align: center;
@@ -159,11 +160,7 @@ header {
 #services {
     height: 450px;
     margin: 20px;
-    padding: 10px;
-    background-color:#232528 ;
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
+    padding: 10px;  
 }
 
 .subtitle {
