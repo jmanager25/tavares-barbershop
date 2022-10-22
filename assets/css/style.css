@@ -197,16 +197,15 @@ header {
 /* contact */
 
 #contact {
-    height: 450px;
     margin: 20px;
     display: flex;
     flex-direction: column;
-    background-color: #232528;
 }
 
 #details-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 30px;
 }
 
@@ -215,14 +214,9 @@ header {
 }
 
 .contact-details {
-    border: 2px solid #ffa400;
+    border: 2px solid #ad987d;
     padding: 20px;
     align-self: center;
-}
-
-#contact h2 {
-    align-self: center;
-    
 }
 
 /* gallery */
@@ -249,7 +243,6 @@ header {
 
 footer {
     height: 100px;
-    background-color: #232528;
     display: flex;
     justify-content: center;
 }
@@ -265,12 +258,12 @@ footer {
 }
 
 .social-networks i {
-    color: #ffa400;
+    color: #ad987d;
     padding: 5px;
 }
 
 .social-networks i:hover {
-    background-color: #ffa400;
+    background-color: #ad987d;
     color: #ffffff;
 }
 
