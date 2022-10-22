@@ -277,6 +277,7 @@ footer {
     margin: 25px auto;
     border-radius: 10px;
     background-color: #e1e1e1;
+    color: #212123;
 }
 
 #text-container {
@@ -296,11 +297,21 @@ form {
     padding: 0 25px;
 }
 
+.inputs {
+    width: 300px;
+    display: grid;
+    margin-right: 15px;
+}
 
+.textarea {
+    display: grid;
+    width: 100%;
+}
 
 /* code based on coder coffeehouse project */
 label {
-   margin: 10px 15px 5px 0 ;
+   margin: 10px 15px 5px 0;
+   font-weight: 500;
 }
 
 .input-style {
@@ -310,7 +321,6 @@ label {
 
 .buttom {
     margin-top: 20px;
-    width: 30%;
     padding: 10px;
     background-color: #ad987d;
 }
