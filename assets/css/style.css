@@ -211,12 +211,14 @@ header {
 
 #map {
     width: 40%;
+    margin: 20px;
 }
 
 .contact-details {
     border: 2px solid #ad987d;
     padding: 20px;
     align-self: center;
+    margin: 20px;
 }
 
 /* gallery */
@@ -224,11 +226,11 @@ header {
 #gallery {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 20px;
 }
 
 .gallery-img-container {
-    width: 300px;
+    width: 320px;
     margin: 5px;
 }
 
