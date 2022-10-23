@@ -33,7 +33,6 @@ h1, h2, h3 {
 /* headings and logo */
 
 header {
-    height: 150px;
     margin: 0 20px;
     display: flex;
     justify-content: space-evenly;
@@ -317,6 +316,17 @@ label {
 
 /* media queries */
 
+/* from 1217px wide and down */
+
+@media screen and (max-width: 1217px) {
+
+    /* book appointment section */
+    .inputs {
+        width: 100%;
+    }
+}
+
+
 /* From 1140px wide and down */
 
 @media screen and (max-width: 1140px) {
@@ -351,6 +361,23 @@ label {
     }
 }
 
+/* from 925px wide and down */
+
+@media screen and (max-width: 925px) {
+
+    /* book appointment section */
+    #text-container {
+        margin: 25px 0;
+        padding: 25px 0;
+        text-align: center;
+    }
+
+    form {
+        margin: 0 10px;
+        padding: 0 10px;
+    }
+}
+
 /* from 890px wide and down */
 
 @media screen and (max-width: 890px) {
@@ -365,5 +392,33 @@ label {
     #barbershop-img-container {
         width: 100%;
         margin: 20px;
+    }
+}
+
+/* from 616px wide and down */
+
+@media screen and (max-width: 616px) {
+
+   /* book appointment section */
+    #background {
+        width: 80%;
+    }
+}
+
+/* from 480px wide and down */
+
+@media screen and (max-width: 616px) {
+
+    /* book appointment section */
+    #background {
+        width: 75%;
+    }
+
+    #text-container {
+        font-size: 12px;
+    }
+
+    form {
+        font-size: 12px;
     }
 }
