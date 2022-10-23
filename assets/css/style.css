@@ -21,7 +21,7 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
-/* style for all sections title's */
+/* style for all section title's */
 .subtitle {
     margin: 20px;
     padding-bottom: 20px;
@@ -75,21 +75,6 @@ header {
     background-color: #ad987d;
     border-radius: 5px;
 }
-
-/* code for the navbar based on a youtube video "Responsive navbar tutorial" 
-.hamburger-menu {
-    position: absolute;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.hamburger-menu i {
-    font-size: 30px;
-    color: #ffffff;
-    line-height: 80px;
-} */
 
 /* hero section */
 
@@ -286,6 +271,10 @@ footer {
     padding: 25px;
 }
 
+#text-container h2 {
+    color: #ad987d;
+}
+
 #text-container p {
     margin-top: 15px;
 }
@@ -324,6 +313,7 @@ label {
     margin-top: 20px;
     padding: 10px;
     background-color: #ad987d;
+    font-weight: 600;
 }
 
 /* media queries */
