@@ -100,6 +100,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 20px 10px; 
 }
 
@@ -128,7 +129,7 @@ header {
 
 #barbershop-img-container {
     width: 300px;
-    margin-right: 20px;
+    margin: 0 20px;
 }
 
 #barbershop-img-container img {
@@ -319,6 +320,8 @@ label {
 /* From 1140px wide and down */
 
 @media screen and (max-width: 1140px) {
+
+    /* contact section */
     .contact-details {
         margin: 10px;
         pad: 10px;
@@ -328,6 +331,8 @@ label {
 /* from 1070px wide and down */
 
 @media screen and (max-width: 1075px) {
+
+    /* service section */
     #services-container {
         justify-content: center;
     }
@@ -336,6 +341,7 @@ label {
         width: 80%;
     }
 
+    /* contact section */
     #details-container {
         justify-content: space-evenly;
     }
@@ -345,8 +351,19 @@ label {
     }
 }
 
-/* from 950px wide and down */
+/* from 890px wide and down */
 
-@media screen and (max-width: 950px) {
-    
+@media screen and (max-width: 890px) {
+
+    /* about section */ 
+    .about-info {
+        width: 100%;
+        margin: 0 10px 20px;
+        padding: 0 10px;
+    }
+
+    #barbershop-img-container {
+        width: 100%;
+        margin: 20px;
+    }
 }
