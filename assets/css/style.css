@@ -34,8 +34,10 @@ h1, h2, h3 {
 
 header {
     height: 150px;
+    margin: 0 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
     position: relative;
     z-index: 1;
@@ -44,15 +46,11 @@ header {
 #logo {
     width: 150px;
     height: 150px;
-    margin-left: 50px;
 }
 
 #nav-container {
     display: flex; 
-    justify-content: flex-end;
-    margin: 50px;
     font-size: 120%;
-    letter-spacing: 2px;
 }
 
 #nav-container li {
