@@ -315,3 +315,38 @@ label {
 }
 
 /* media queries */
+
+/* From 1140px wide and down */
+
+@media screen and (max-width: 1140px) {
+    .contact-details {
+        margin: 10px;
+        pad: 10px;
+    }
+}
+
+/* from 1070px wide and down */
+
+@media screen and (max-width: 1075px) {
+    #services-container {
+        justify-content: center;
+    }
+
+    .service-type-container {
+        width: 80%;
+    }
+
+    #details-container {
+        justify-content: space-evenly;
+    }
+
+    #map {
+        width: 100%;
+    }
+}
+
+/* from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+    
+}
