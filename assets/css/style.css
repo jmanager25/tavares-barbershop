@@ -10,7 +10,7 @@
 
 body {
     font-family: roboto, sans-serif;
-    font-size: 300;
+    font-weight: 300;
     letter-spacing: 1px;
     color: #ffffff;
     background-color: #212123;
@@ -175,7 +175,6 @@ header {
 /* About us section */
 
 #about-us {
-    height: 450x;
     margin: 20px;
 }
 
@@ -418,7 +417,6 @@ label {
     /* contact section */
     .contact-details {
         margin: 10px;
-        pad: 10px;
     }
 }
 
