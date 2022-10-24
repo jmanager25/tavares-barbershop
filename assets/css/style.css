@@ -16,7 +16,9 @@ body {
     background-color: #212123;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: montserrat, sans-serif;
     text-transform: uppercase;
 }
@@ -55,7 +57,7 @@ header {
 }
 
 #nav-container {
-    display: flex; 
+    display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
@@ -100,7 +102,8 @@ header {
     transition: 0.3s;
 }
 
-.hamburger:before, .hamburger:after {
+.hamburger:before,
+.hamburger:after {
     content: "";
     position: absolute;
     height: 4px;
@@ -129,29 +132,31 @@ header {
     opacity: 0;
 }
 
-.hamburger, .toggle-menu {
-   display: none; 
+.hamburger,
+.toggle-menu {
+    display: none;
 }
 
-.nav input:checked ~ .hamburger {
+.nav input:checked~.hamburger {
     background: transparent;
 }
 
-.nav input:checked ~ .hamburger:before {
+.nav input:checked~.hamburger:before {
     top: 0;
     transform: rotate(-45deg);
     width: 30px;
 }
 
-.nav input:checked ~ .hamburger:after {
+.nav input:checked~.hamburger:after {
     top: 0;
     transform: rotate(45deg);
     width: 30px;
 }
 
-.nav input:checked ~ #nav-container {
+.nav input:checked~#nav-container {
     right: 0;
 }
+
 /* hero section */
 
 #hero-section {
@@ -164,7 +169,7 @@ header {
     background: url("../images/hero\ image.jpg") no-repeat center center;
     background-size: cover;
     position: relative;
-    top: -150px;  
+    top: -150px;
 }
 
 /* About us section */
@@ -179,7 +184,7 @@ header {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 20px 10px; 
+    padding: 20px 10px;
 }
 
 .about-info {
@@ -203,7 +208,7 @@ header {
 #booking:hover {
     background-color: #ffffff;
     color: #ad987d;
-} 
+}
 
 #barbershop-img-container {
     width: 300px;
@@ -221,7 +226,7 @@ header {
 
 #services {
     margin: 20px;
-    padding: 10px;  
+    padding: 10px;
 }
 
 #services-container {
@@ -242,7 +247,7 @@ header {
 }
 
 .service-type {
-   margin-right: 20px;
+    margin-right: 20px;
 }
 
 .service-type h3 {
@@ -377,8 +382,8 @@ form {
 
 /* code based on coder coffeehouse project */
 label {
-   margin: 10px 15px 5px 0;
-   font-weight: 500;
+    margin: 10px 15px 5px 0;
+    font-weight: 500;
 }
 
 .input-style {
@@ -422,7 +427,7 @@ label {
 @media screen and (max-width: 1075px) {
 
     /* hero section */
-    #hero-image { 
+    #hero-image {
         top: -210px;
     }
 
@@ -443,6 +448,43 @@ label {
     #map {
         width: 100%;
     }
+}
+
+/* from 966px wide and down */
+
+@media screen and (max-width: 966px) {
+
+    /* header and logo section */
+    .hamburger,
+    .toggle-menu {
+        display: block;
+        margin-right: 20px;
+        position: fixed;
+        right: 20px;
+    }
+
+    #nav-container {
+        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        background: #212123;
+        width: 300px;
+        height: 100%;
+        padding-top: 85px;
+    }
+
+    #nav-container li {
+        width: 85%;
+        padding: 12px;
+    }
+
+    #nav-container li a {
+        padding: 18px;
+    }
+
 }
 
 /* from 925px wide and down */
@@ -466,7 +508,7 @@ label {
 
 @media screen and (max-width: 890px) {
 
-    /* about section */ 
+    /* about section */
     .about-info {
         width: 100%;
         margin: 0 10px 20px;
@@ -480,16 +522,6 @@ label {
 }
 
 /* from 616px wide and down */
-
-@media screen and (max-width: 616px) {
-
-   /* book appointment section */
-    #background {
-        width: 80%;
-    }
-}
-
-/* from 480px wide and down */
 
 @media screen and (max-width: 616px) {
 
@@ -507,38 +539,3 @@ label {
     }
 }
 
-/* from 966px wide and down */
-
-@media screen and (max-width: 966px) {
-
-    /* header and logo section */
-   .hamburger, .toggle-menu {
-    display: block;
-    margin-right: 20px;
-    position: fixed;
-    right: 20px;
-   }
-
-   #nav-container {
-    justify-content: start;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    right: -300px;
-    background: #212123;
-    width: 300px;
-    height: 100%;
-    padding-top: 65px;
-   }
-
-   #nav-container li {
-    width: 85%;
-    padding: 12px;
-   }
-
-   #nav-container li a {
-    padding: 18px;
-   }
-
-}
