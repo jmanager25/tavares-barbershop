@@ -515,6 +515,8 @@ label {
    .hamburger, .toggle-menu {
     display: block;
     margin-right: 20px;
+    position: fixed;
+    right: 20px;
    }
 
    #nav-container {
