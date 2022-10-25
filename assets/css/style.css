@@ -37,7 +37,6 @@ h3 {
 header {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     align-items: center;
     position: relative;
     z-index: 1;
@@ -468,9 +467,9 @@ label {
     }
 }
 
-/* from 966px wide and down */
+/* from 980px wide and down */
 
-@media screen and (max-width: 966px) {
+@media screen and (max-width: 980px) {
 
     /* header and logo section */
     .hamburger,
@@ -560,4 +559,18 @@ label {
     #schedule {
         padding: 44px;
     }
+}
+
+/* from 320px wide and down */
+
+@media screen and (max-width: 320px) {
+
+    .subtitle {
+        font-size: 24px;
+    }
+
+    #about-container {
+        text-align: center;
+    }
+
 }
