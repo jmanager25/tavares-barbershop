@@ -403,6 +403,17 @@ label {
 
 @media screen and (min-width: 1500px) {
 
+    /* code to stick the footer at the bottom of the page on bigger screens */
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        margin-top: auto;
+    }
+
     /* contact section */
     #details-container {
         justify-content: space-evenly;
