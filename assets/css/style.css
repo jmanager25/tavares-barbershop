@@ -539,9 +539,9 @@ label {
     }
 }
 
-/* from 616px wide and down */
+/* from 620px wide and down */
 
-@media screen and (max-width: 616px) {
+@media screen and (max-width: 620px) {
 
     /* book appointment section */
     #background {
@@ -554,5 +554,10 @@ label {
 
     form {
         font-size: 12px;
+    }
+
+    /* contact section */
+    #schedule {
+        padding: 44px;
     }
 }
