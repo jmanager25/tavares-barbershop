@@ -399,6 +399,16 @@ label {
 
 /* media queries */
 
+/* from 1500px wide and up */
+
+@media screen and (min-width: 1500px) {
+
+    /* contact section */
+    #details-container {
+        justify-content: space-evenly;
+    }
+}
+
 /* from 1217px wide and down */
 
 @media screen and (max-width: 1217px) {
@@ -408,7 +418,6 @@ label {
         width: 100%;
     }
 }
-
 
 /* From 1140px wide and down */
 
@@ -536,4 +545,3 @@ label {
         font-size: 12px;
     }
 }
-
