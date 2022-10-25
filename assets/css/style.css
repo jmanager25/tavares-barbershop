@@ -607,4 +607,10 @@ label {
         padding: 60px;
     }
 
+    /* book appointment page */
+
+    form {
+        margin: 0 -15px;
+    }
+
 }
