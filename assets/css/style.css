@@ -568,7 +568,7 @@ label {
     /* about section */
     .subtitle {
         margin: 0;
-        font-size: 24px;
+        font-size: 21px;
     }
 
     #about-container {
@@ -589,4 +589,22 @@ label {
     .service-type p {
         font-size: 14px;
     }
+
+    /* contact section */
+    #details-container {
+        margin: 0;
+    }
+
+    #map {
+        margin: 0;
+    }
+
+    #address {
+    padding: 5px;
+    }
+
+    #schedule {
+        padding: 60px;
+    }
+
 }
