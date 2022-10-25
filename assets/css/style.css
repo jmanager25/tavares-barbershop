@@ -565,7 +565,9 @@ label {
 
 @media screen and (max-width: 320px) {
 
+    /* about section */
     .subtitle {
+        margin: 0;
         font-size: 24px;
     }
 
@@ -573,4 +575,18 @@ label {
         text-align: center;
     }
 
+    /* service section */
+    .service-type-container {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .service-type {
+        margin: 0 0 10px;
+    }
+
+    .service-type p {
+        font-size: 14px;
+    }
 }
