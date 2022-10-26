@@ -467,6 +467,7 @@ label {
 @media screen and (max-width: 980px) {
 
     /* header and logo section */
+    /* hamburger menu - code based on youtube video tutorial */
     .hamburger,
     .toggle-menu {
         display: block;
