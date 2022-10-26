@@ -533,6 +533,24 @@ label {
     }
 }
 
+/* from 700px wide and up */
+
+@media screen and (min-width: 700px) {
+
+    /* gallery page */
+    /* fix the gap between the images on bigger screens - code from website css-tricks.com */
+    .gallery-img-container {
+        height: 40vh;
+        width: auto;
+        flex-grow: 1;
+    }
+
+    .gallery-img-container img {
+        max-height: 100%;
+        object-fit: cover;
+    }
+}
+
 /* from 620px wide and down */
 
 @media screen and (max-width: 620px) {
