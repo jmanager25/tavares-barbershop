@@ -12,10 +12,11 @@ The website us comprised of three pages (home page, gallery page and book appoin
 
 ### Existing Features 
 
-- _Navigation Bar_
+- __Navigation Bar__
 
-- Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, About Us, Services, Contact, Gallery page and Book Appointement page and is identical in each page to allow for easy navigation.
-- On devices smaller than 980px the navigation bar turns into hamburger menu, allowing good user experience.
+ - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, About Us, Services, Contact, Gallery page and Book Appointement page and is identical in each page to allow for easy navigation.
+ - On devices smaller than 980px the navigation bar turns into hamburger menu, allowing good user experience.
 
 ! [navigation bar](assets/images/navigationbar.jpeg)
 ! [hamburger menu](assets/images/hamburger-menu.jpeg)
+
