@@ -45,7 +45,18 @@ __Contact section__
    - This section gives users information about address, phone number, email and opening times of the shop.
    - This section includes an iframe of google maps that allows users to see exactly where the shop is located.
 
-   ! [contact section]()
+   ! [contact section](assets/images/contact.jpeg)
+
+__Gallery page__
+
+   - This section allows users to see the work done in the barbershop.
+   - This section gives users a visual representation of how their hair will look after the job is done.
+
+   ! [gallery page](assets/images/gallery.jpeg)
+
+__Book appointment page__
+
+   - 
 
 
 
