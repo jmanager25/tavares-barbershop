@@ -117,6 +117,17 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 * Under "Branch" click the drop-down menu and select "main"
 * click save, the site is now deployed and a link is provided.
 
+## Testing
 
+### Manual Testing
 
+* All links on navigation bar opens to corect sections and pages.
+* Social media links on footer opens on a new tab.
+* All images on a website loads corectly.
+* The form sends data correctly to the form dump.
+* The website is fully responsible on all devices present on google dev tools
+
+### W3C Validator
+
+The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
