@@ -56,7 +56,10 @@ __Gallery page__
 
 __Book appointment page__
 
-   - 
+   - This section allows user to make an online appointment with the barbershop.
+   - The user will be asked to submit their name, email and phone number, to select the service pretended, to choose the appointment date and time and to write any aditional message they find pertinent. 
+
+   ! [book appoitment page](assets/images/form.jpeg)
 
 
 
