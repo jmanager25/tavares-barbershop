@@ -1,6 +1,6 @@
 # Tavares Barbershop Website 
 
-Tavares Barbershop is a website created to provide potential clients with important information about services, opening hours, and location of the shop. It aims to boost the barbering bussiness, bring in clients and help the growt f the shop.
+Tavares Barbershop is a website created to provide potential clients with important information about services, opening hours, and location of the shop. It aims to boost the barbering bussiness, bring in clients and help the growt of the shop.
 
 ![Responsive Mockup](/assets/images/project-image.jpeg)
 
@@ -84,5 +84,24 @@ __Book appointment page__
 
    ![book appoitment page](/assets/images/form.jpeg)
 
+## Technologies Used
+
+### Languages Used
+
+HTML and CSS were used to create this website.
+
+### Frameworks, Libraries & Programs Used
+
+Git - For version control.
+
+Github - To save and store the files for the website.
+
+Google Fonts - To import the fonts used on the website.
+
+Font Awesome - For the iconography on the website.
+
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
 
