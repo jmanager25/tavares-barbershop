@@ -88,7 +88,9 @@ __Book appointment page__
 
 ### Languages Used
 
-HTML and CSS were used to create this website.
+* HTML 
+
+* CSS 
 
 ### Frameworks, Libraries & Programs Used
 
@@ -103,5 +105,18 @@ Font Awesome - For the iconography on the website.
 Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
 [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+
+## Deployment
+
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+* Log in (or sign up) to Github.
+* Find the repository for this project, tavares-barbershop
+* Click on the Settings
+* Click on the Pages, on the left side navigation bar
+* Under "Branch" click the drop-down menu and select "main"
+* click save, the site is now deployed and a link is provided.
+
+
 
 
