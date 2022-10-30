@@ -1,6 +1,6 @@
 # Tavares Barbershop
 
-Tavares Barbershop is a website created to provide potential clients with important information about services, opening hours, and location of the shop. It aims to boost the barbering bussiness, bring in clients and help the growt of the shop.
+Tavares Barbershop is a website created to provide potential clients with important information about services, opening hours, and location of the shop. It aims to boost the barbering bussiness, bring in clients and help the growth of the shop.
 
 ![Responsive Mockup](/assets/images/project-image.jpeg)
 
@@ -60,7 +60,7 @@ Google Fonts was used for the following fonts:
 
 ## Features
 
-The website us comprised of three pages (home page, gallery page and book appointment page), all of them accssible from the navigation bar.
+The website is comprised of three pages (home page, gallery page and book appointment page), all of them accessible from the navigation bar.
 
 ### Existing Features 
 
@@ -88,7 +88,7 @@ The website us comprised of three pages (home page, gallery page and book appoin
 #### Service & Price section  
 
 * This section gives the users some information about the services provided by the barbershop and a brief description of each of the services.
-* This section also shows the user the price of each of the services.
+* This section also shows the user the price of each service.
 
    ![services & price section](/assets/images/service-section.jpeg)
 
@@ -101,7 +101,7 @@ The website us comprised of three pages (home page, gallery page and book appoin
 
 #### Footer
 
-* The footer section includes links to the social media. Icons were used to keep the footer clean and because they are universally recognisable.
+* The footer section includes links to social media. Icons were used to keep the footer clean and because they are universally recognisable.
 
    ![footer](/assets/images/footer.jpeg)
 
@@ -115,7 +115,7 @@ The website us comprised of three pages (home page, gallery page and book appoin
 #### Book appointment page
 
 * This section allows user to make an online appointment with the barbershop.
-* The user will be asked to submit their name, email and phone number, to select the service pretended, to choose the appointment date and time and to write any aditional message they find pertinent. 
+* The user will be asked to submit their name, email and phone number, to select the service, to choose the appointment date and time and to write any additional message they find pertinent. 
 
    ![book appoitment page](/assets/images/form.jpeg)
 
@@ -156,11 +156,11 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 ### Manual Testing
 
-* All links on navigation bar opens to corect sections and pages.
-* Social media links on footer opens on a new tab.
-* All images on a website loads corectly.
+* All links on the navigation bar open to the correct sections and pages.
+* Social media links on footer open on a new tab.
+* All images on the website load corectly.
 * The form sends data correctly to the form dump.
-* The website is fully responsible on all devices present on google dev tools
+* The website is fully responsive on all devices present on google dev tools
 
 ### W3C Validator
 
@@ -173,12 +173,12 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 ### Bugs
 
-* On smaller screens the nav bar would wrap and come on top of the gallery and form page. In order to fix that issue, the flex wrap was removed and the hamburguer menu was added on devices smaller than 980px. 
+* On smaller screens the nav bar would wrap and come on top of the gallery and form page. In order to fix that issue, the flex wrap was removed and the hamburger menu was added on devices smaller than 980px. 
 
 ![Before](/assets/test/bugs/navbar-bug.jpeg) 
 ![After](/assets/test/bugs/navbar-solution.jpeg)
 
-* When using hamburguer menu on smaller screens the toggle menu would scroll with the page and disappear from the screen. To fix the issue the position fixed was added to the toggle menu.
+* When using hamburger menu on smaller screens the toggle menu would scroll with the page and disappear from the screen. To fix the issue the position fixed was added to the toggle menu.
 
 ![Before](/assets/test/bugs/toggle-menu-before.jpeg) 
 ![After](/assets/test/bugs/toggle-menu-after.jpeg)
@@ -197,7 +197,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 ### Code Used
 
-* [Code for hamburguer menu](https://www.youtube.com/watch?v=XM7sEpl0f7c&ab_channel=PureCode)
+* [Code for hamburger menu](https://www.youtube.com/watch?v=XM7sEpl0f7c&ab_channel=PureCode)
 
 * [How to make footer stick at the bottom of web page](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14)
 
@@ -207,19 +207,19 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 ### Content
 
-* The text for the about us section and services & price section were based on [Barbershop De Loods](https://barbershopdeloods.nl/) and [Barbershop Strak Strak](https://barbershopstrakstrak.nl/).
+* The text for the "about us" section and "services & price" section were based on [Barbershop De Loods](https://barbershopdeloods.nl/) and [Barbershop Strak Strak](https://barbershopstrakstrak.nl/).
 
 * The Icons in the footer are from [Font Awesome](https://fontawesome.com/)
 
 * The readme file is based on Love Running readme and Kera Cudmore's webinar [Creating your first README](https://docs.google.com/presentation/d/19_7r_To5bu7UjnZD87hrzWQi63Ij0YpaRH1XFnPZZe8/edit#slide=id.g35f391192_04)
 
-* Form dump from Code Institute
+* Form dump is from Code Institute
 
-* Adress on contact section from kapsalon latino, a barbershop in rotterdam.
+* Adress on contact section is from kapsalon latino, a barbershop in rotterdam.
 
 ### Media 
 
-* Images used on the website were taking from the foolowing website:
+* Images used on the website were taken from the foolowing website:
 
    * [Unsplash](https://unsplash.com/)
    * [Pxhere](https://pxhere.com/) 
@@ -227,15 +227,15 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 * Logo was created using canvas
 
-* color pallets from [Dribbble](https://dribbble.com/shots/16129871-Barbershop-Landing-Page/attachments/7983429?mode=media)
+* Colour palletes are from [Dribbble](https://dribbble.com/shots/16129871-Barbershop-Landing-Page/attachments/7983429?mode=media)
 
 ## Acknowledgments
 
 I would like to thank the following people:
 
-* My girlfriend for her patiente and support while i was working on the project
+* My girlfriend for her patience and support while I was working on the project
 
-* My mentor, Mitko, for his guidence throughout the project
+* My mentor, Mitko, for his guidance throughout the project
 
 * My collegues from code institute for the support and motivation on Slack
 
