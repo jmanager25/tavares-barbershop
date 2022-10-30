@@ -140,19 +140,23 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 * On smaller screens the nav bar would wrap and come on top of the gallery and form page. In order to fix that issue, the flex wrap was removed and the hamburguer menu was added on devices smaller than 980px. 
 
-![Before](/assets/test/bugs/navbar-bug.jpeg) ![After](/assets/test/bugs/navbar-solution.jpeg)
+![Before](/assets/test/bugs/navbar-bug.jpeg) 
+![After](/assets/test/bugs/navbar-solution.jpeg)
 
 * When using hamburguer menu on smaller screens the toggle menu would scroll with the page and disappear from the screen. To fix the issue the position fixed was added to the toggle menu.
 
-![Before](/assets/test/bugs/toggle-menu-before.jpeg) ![After](/assets/test/bugs/toggle-menu-after.jpeg)
+![Before](/assets/test/bugs/toggle-menu-before.jpeg) 
+![After](/assets/test/bugs/toggle-menu-after.jpeg)
 
 * On bigger screens the footer would appear in the middle of the screen, in order to solve the problem, the media query was added to stick the the footer at the bottom of the page.
 
-![Before](/assets/test/bugs/footer-before.jpeg) ![After](/assets/test/bugs/footer-after.jpeg)
+![Before](/assets/test/bugs/footer-before.jpeg) 
+![After](/assets/test/bugs/footer-after.jpeg)
 
 * In the Gallery page there were gaps between the images, because not all of them were the same size. This was solved by adding media query so that the images would adapt to the size of the screen. 
 
-![Before](/assets/test/bugs/gallery-before.jpeg) ![After](/assets/test/bugs/gallery-after.jpeg)
+![Before](/assets/test/bugs/gallery-before.jpeg) 
+![After](/assets/test/bugs/gallery-after.jpeg)
 
 ## Credits 
 
@@ -189,6 +193,16 @@ Images used on the website were taking from the foolowing website:
 * Logo was created using canvas
 
 * color pallets from [Dribbble](https://dribbble.com/shots/16129871-Barbershop-Landing-Page/attachments/7983429?mode=media)
+
+## Acknowledgments
+
+I would like to thank the following people:
+
+* My girlfriend for her patiente and support while i was working on the project
+
+* My mentor, Mitko, for his guidence throughout the project
+
+* My collegues from code institute for the support and motivation on Slack
 
 
 
