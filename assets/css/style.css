@@ -544,7 +544,7 @@ label {
 @media screen and (min-width: 700px) {
 
     /* gallery page */
-    /* fix the gap between the images on bigger screens - code from website css-tricks.com */
+    /* fix the gap between the images on bigger screens - code based on website css-tricks.com */
     .gallery-img-container {
         height: 40vh;
         width: auto;

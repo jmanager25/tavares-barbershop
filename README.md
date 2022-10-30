@@ -140,16 +140,59 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 * On smaller screens the nav bar would wrap and come on top of the gallery and form page. In order to fix that issue, the flex wrap was removed and the hamburguer menu was added on devices smaller than 980px. 
 
-! [Before](/assets/test/bugs/navbar-bug.jpeg) ! [After](/assets/test/bugs/navbar-solution.jpeg)
+![Before](/assets/test/bugs/navbar-bug.jpeg) ![After](/assets/test/bugs/navbar-solution.jpeg)
 
 * When using hamburguer menu on smaller screens the toggle menu would scroll with the page and disappear from the screen. To fix the issue the position fixed was added to the toggle menu.
 
-! [Before](/assets/test/bugs/toggle-menu-before.jpeg) ! [After](/assets/test/bugs/toggle-menu-after.jpeg)
+![Before](/assets/test/bugs/toggle-menu-before.jpeg) ![After](/assets/test/bugs/toggle-menu-after.jpeg)
 
 * On bigger screens the footer would appear in the middle of the screen, in order to solve the problem, the media query was added to stick the the footer at the bottom of the page.
 
-! [Before](/assets/test/bugs/footer-before.jpeg) ! [After](/assets/test/bugs/footer-after.jpeg)
+![Before](/assets/test/bugs/footer-before.jpeg) ![After](/assets/test/bugs/footer-after.jpeg)
 
 * In the Gallery page there were gaps between the images, because not all of them were the same size. This was solved by adding media query so that the images would adapt to the size of the screen. 
 
-! [Before](/assets/test/bugs/gallery-before.jpeg) ! [After](/assets/test/bugs/gallery-after.jpeg)
+![Before](/assets/test/bugs/gallery-before.jpeg) ![After](/assets/test/bugs/gallery-after.jpeg)
+
+## Credits 
+
+### Code Used
+
+* [Code for hamburguer menu](https://www.youtube.com/watch?v=XM7sEpl0f7c&ab_channel=PureCode)
+
+* [How to make footer stick at the bottom of web page](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14)
+
+* [Fix the gap between the images on bigger screens](https://css-tricks.com/adaptive-photo-layout-with-flexbox/)
+
+* Footer code was based on Love Running project
+
+### Content
+
+* The text for the about us section and services & price section were based on [Barbershop De Loods](https://barbershopdeloods.nl/) and [Barbershop Strak Strak](https://barbershopstrakstrak.nl/).
+
+* The Icons in the footer are from [Font Awesome](https://fontawesome.com/)
+
+* The readme file is based on Love Running readme and Kera Cudmore's webinar [Creating your first README](https://docs.google.com/presentation/d/19_7r_To5bu7UjnZD87hrzWQi63Ij0YpaRH1XFnPZZe8/edit#slide=id.g35f391192_04)
+
+* Form dump from Code Institute
+
+* Adress on contact section from kapsalon latino, a barbershop in rotterdam.
+
+### Media 
+
+Images used on the website were taking from the foolowing website:
+
+ * [Unsplash](https://unsplash.com/)
+ * [Pxhere](https://pxhere.com/)
+ * [Pexels](https://www.pexels.com/pt-br/)
+
+* Logo was created using canvas
+
+* color pallets from [Dribbble](https://dribbble.com/shots/16129871-Barbershop-Landing-Page/attachments/7983429?mode=media)
+
+
+
+
+
+
+
