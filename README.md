@@ -1,10 +1,45 @@
-# Tavares Barbershop Website 
+# Tavares Barbershop
 
 Tavares Barbershop is a website created to provide potential clients with important information about services, opening hours, and location of the shop. It aims to boost the barbering bussiness, bring in clients and help the growt of the shop.
 
 ![Responsive Mockup](/assets/images/project-image.jpeg)
 
 [View Tavares Barbershop website on github pages](https://jmanager25.github.io/tavares-barbershop/)
+
+## Table of Contents
+
+* [Design Section](#design-section)
+   * [Colour Scheme](#colour-scheme)
+   * [Typography](#typography)
+
+* [Features](#features)
+   * [Existing Features](#existing-features)
+      * [Navigation Bar](#navigation-bar)
+      * [Hero Image](#hero-image)
+      * [About Us Section](#about-us-section)
+      * [Service & Price Section](#service--price-section)
+      * [Contact Section](#contact-section)
+      * [Footer](#footer)
+      * [Gallery Page](#gallery-page)
+      * [Book Appointment Page](#book-appointment-page)
+
+* [Technologies Used](#technologies-used)
+   * [Languages Used](#languages-used)
+   * [Framework, Libraries and Programs Used](#frameworks-libraries--programs-used)
+
+* [Deployment](#deployment)
+
+* [Testing](#testing)
+   * [Manual Testing](#manual-testing)
+   * [W3C Validator](#w3c-validator)
+   * [Bugs](#bugs)
+
+* [Credits](#credits)
+   * [Code Used](#code-used)
+   * [Content](#content)
+   * [Media](#media)
+
+* [Ackonowledgments](#acknowledgments)
 
 ## Design Section
 
@@ -29,58 +64,58 @@ The website us comprised of three pages (home page, gallery page and book appoin
 
 ### Existing Features 
 
-__Navigation Bar__
+#### Navigation Bar
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, About Us, Services, Contact, Gallery page and Book Appointement page.
-  - On devices smaller than 980px the navigation bar turns into hamburger menu, allowing good user experience.
+* Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, About Us, Services, Contact, Gallery page and Book Appointement page.
+* On devices smaller than 980px the navigation bar turns into hamburger menu, allowing good user experience.
 
 ![navigation bar](/assets/images/navigationbar.jpeg)
 ![hamburger menu](/assets/images/hamburger-menu.jpeg)
 
-__The landing page image__
+#### Hero Image
  
-  - The landing page includes a photograph of barber products.
+* The landing page includes a photograph of barber products.
 
  ![landing page image](/assets/images/landing-page-image.jpeg)
 
-__About us section__
+#### About us section 
 
-  - This section includes the barbershop photograph and tell the users the story of the shop and its mission.
-  - This section also includes a link that leads the users to the book appointment page.
+* This section includes the barbershop photograph and tell the users the story of the shop and its mission.
+* This section also includes a link that leads the users to the book appointment page.
 
   ![about us section](/assets/images/About-us.jpeg)
 
-__Service & Price section__  
+#### Service & Price section  
 
-   - This section gives the users some information about the services provided by the barbershop and a brief description of each of the services.
-   - This section also shows the user the price of each of the services.
+* This section gives the users some information about the services provided by the barbershop and a brief description of each of the services.
+* This section also shows the user the price of each of the services.
 
    ![services & price section](/assets/images/service-section.jpeg)
 
-__Contact section__
+#### Contact section
 
-   - This section gives users information about address, phone number, email and opening times of the shop.
-   - This section includes an iframe of google maps that allows users to see exactly where the shop is located.
+* This section gives users information about address, phone number, email and opening times of the shop.
+* This section includes an iframe of google maps that allows users to see exactly where the shop is located.
 
    ![contact section](/assets/images/contact.jpeg)
 
-__Footer__
+#### Footer
 
-   - The footer section includes links to the social media. Icons were used to keep the footer clean and because they are universally recognisable.
+* The footer section includes links to the social media. Icons were used to keep the footer clean and because they are universally recognisable.
 
    ![footer](/assets/images/footer.jpeg)
 
-__Gallery page__
+#### Gallery page
 
-   - This section allows users to see the work done in the barbershop.
-   - This section gives users a visual representation of how their hair will look after the job is done.
+* This section allows users to see the work done in the barbershop.
+* This section gives users a visual representation of how their hair will look after the job is done.
 
    ![gallery page](/assets/images/gallery.jpeg)
 
-__Book appointment page__
+#### Book appointment page
 
-   - This section allows user to make an online appointment with the barbershop.
-   - The user will be asked to submit their name, email and phone number, to select the service pretended, to choose the appointment date and time and to write any aditional message they find pertinent. 
+* This section allows user to make an online appointment with the barbershop.
+* The user will be asked to submit their name, email and phone number, to select the service pretended, to choose the appointment date and time and to write any aditional message they find pertinent. 
 
    ![book appoitment page](/assets/images/form.jpeg)
 
@@ -184,11 +219,11 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 ### Media 
 
-Images used on the website were taking from the foolowing website:
+* Images used on the website were taking from the foolowing website:
 
- * [Unsplash](https://unsplash.com/)
- * [Pxhere](https://pxhere.com/)
- * [Pexels](https://www.pexels.com/pt-br/)
+   * [Unsplash](https://unsplash.com/)
+   * [Pxhere](https://pxhere.com/) 
+   * [Pexels](https://www.pexels.com/pt-br/)
 
 * Logo was created using canvas
 
