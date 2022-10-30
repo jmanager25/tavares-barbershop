@@ -280,6 +280,10 @@ header {
     margin: 20px;
 }
 
+iframe {
+    width: 100%;
+}
+
 .contact-details {
     border: 2px solid #ad987d;
     padding: 20px;
