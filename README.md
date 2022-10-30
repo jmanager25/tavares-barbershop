@@ -131,3 +131,7 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
+* [Index Page HTML](assets/test/validation/index-page.jpeg)
+* [Galery Page HTML](assets/test/validation/gallery-page.jpeg)
+* [Book Appointment page](assets/test/validation/book-ppointment-page.jpeg)
+* [Style.css CSS](assets/test/validation/css-file.jpeg)
